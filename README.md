@@ -1,54 +1,50 @@
-# Predicting the Trend of Imported Cars in Thailand
+🚗 Imported Cars Trend Analysis in Thailand 🎉
+Welcome to the Imported Cars Trend Analysis project! This repository houses a Jupyter Notebook (sec2-group8.ipynb) that zooms into sedan car registrations in Thailand (2022–2024, Thai Buddhist Era 2565–2567) 🚘, spotlighting electric vehicle (EV) brands like Tesla, BYD, Neta, Deepal, and Ora. Get ready to explore sales trends and market shares! 📊✨
+🛠️ Running the Notebook
+Hop into the driver’s seat and follow these steps to run the notebook! 🏎️
 
-This Jupyter Notebook (`sec2-group8.ipynb`) analyzes car sales data from a CSV file (`2024-2025car.csv`) to study trends in sedan registrations in Thailand for 2565–2567 (2022–2024). It focuses on sedans (not more than 7 passengers) and examines brands like TESLA, BYD, NETA, DEEPAL, and ORA.
+Open the Notebook 📓:
 
-## CSV Data
+Fire up Jupyter Notebook:jupyter notebook
 
-The CSV contains:
 
-- **Columns**: Year, Month, Types of Cars, Brands, Car Model, Amount  
-- **Data**: Sales of sedans from various brands, with `Amount` indicating units sold.
+Click on sec2-group8.ipynb to dive in! 🚪
 
-## How the Code Works
 
-### Data Preparation:
+Execute Cells ⚡:
 
-- Loads the CSV using `pandas` and filters for sedans.
-- Cleans data: ensures `Amount` is numeric, standardizes `Brands` (uppercase, no whitespace).
-- Splits data by year (2565, 2566, 2567).
+Run all cells one by one:
+Hit Shift + Enter for each cell, or
+Select Run All from the menu to cruise through! 🏁
 
-### Visualization:
 
-- Defines a function to create pie charts showing the top 10 brands by sales for each year using `matplotlib`.
-- Displays sales distribution for sedans.
 
-### EV Brand Analysis:
 
-- Filters for electric vehicle (EV) brands: **TESLA, BYD, NETA, DEEPAL, ORA**.
-- Aggregates sales by year and brand, calculating year-over-year (YoY) growth rates.
-- Plots sales trends as a line graph.
-- Computes total EV sales and market share for these brands within the sedan category.
+Ensure Dataset Availability 📂:
 
-## Outputs:
+Place 2024-2025car.csv in the same directory as sec2-group8.ipynb.
+Missing the file? You’ll hit a FileNotFoundError roadblock! 🚨
 
-- Pie charts for top 10 brands per year.
-- Table of total sales by year and brand.
-- YoY growth rates for EV brands.
-- Total EV sales and market share table.
-- Line plot of EV brand sales trends (`sales_trends.png`).
 
-## Requirements
+Check Outputs 🖥️:
 
-- Python 3.x  
-- Libraries: `pandas`, `matplotlib`, `statsmodels`
+Console: Peek at data previews, sales figures, and growth rates. 📈
+Visualizations 🎨:
+Feast your eyes on pie charts and a line plot displayed inline.视.
+The line plot is saved as sales_trends.png in the directory. 🖼️
 
-## Usage
 
-1. Place `2024-2025car.csv` in the same directory as the notebook.
-2. Run the notebook cells to process data, generate visualizations, and display results.
 
-## Notes
 
-- The CSV must have the expected columns: `Year`, `Month`, `Types of Cars`, `Brands`, `Car Model`, `Amount`.
-- The code handles errors like missing files or incorrect formats using `try-except` blocks.
-- Thai font support (`TH Sarabun New`) is configured for visualizations.
+
+📝 Notes
+
+Year Format 🗓️: Uses Thai Buddhist Era (2565 = 2022, 2566 = 2023, 2567 = 2024).
+CSV Requirements 📄: Must be UTF-8 encoded with comma delimiters and include columns: Year, Month, Types of Cars, Brands, Car Model, Amount.
+Font Handling ✍️: Visuals use Thai fonts (TH Sarabun New). If unavailable, fallback fonts (Tahoma, Arial) may tweak label rendering. 🎭
+Error Handling ⚠️: For hiccups like missing columns or parsing issues, double-check the CSV structure against the expected columns. 🔍
+
+📜 License
+This project is licensed under the MIT License. See LICENSE for details. 🗝️
+
+Happy analyzing, and enjoy the ride through Thailand’s car trends! 🚗💨
