@@ -43,8 +43,3 @@ Year Format 🗓️: Uses Thai Buddhist Era (2565 = 2022, 2566 = 2023, 2567 = 20
 CSV Requirements 📄: Must be UTF-8 encoded with comma delimiters and include columns: Year, Month, Types of Cars, Brands, Car Model, Amount.
 Font Handling ✍️: Visuals use Thai fonts (TH Sarabun New). If unavailable, fallback fonts (Tahoma, Arial) may tweak label rendering. 🎭
 Error Handling ⚠️: For hiccups like missing columns or parsing issues, double-check the CSV structure against the expected columns. 🔍
-
-📜 License
-This project is licensed under the MIT License. See LICENSE for details. 🗝️
-
-Happy analyzing, and enjoy the ride through Thailand’s car trends! 🚗💨
