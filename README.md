@@ -57,11 +57,3 @@ Make sure the file `2024-2025car.csv` is in the **same directory** as `sec2-grou
   For hiccups like missing columns or parsing issues, double-check the CSV structure against the expected columns. 🔍
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License**. See [LICENSE](./LICENSE) for details. 🗝️
-
----
-
-**Happy analyzing, and enjoy the ride through Thailand’s car trends!** 🚗💨
